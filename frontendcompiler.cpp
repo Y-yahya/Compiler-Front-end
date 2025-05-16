@@ -1,4 +1,3 @@
-// A simplified front-end compiler in C++
 #include <iostream>
 #include <string>
 #include <vector>
@@ -7,9 +6,9 @@
 #include <memory>
 #include <sstream>
 
-//--------------------------------------
+//--------------------------
 // Token and Lexer
-//--------------------------------------
+//--------------------------
 enum class TokenType { Identifier, Number, Keyword, Symbol, EndOfFile, Unknown };
 
 struct Token {
